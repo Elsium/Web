@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background: #fafafc;
+    height: 60px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: white;
+    height: 80px;
+}
+button {
+    outline: 0;
+    outline-offset: 0;
+}
+form, :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+header {
+    display: flex;
+}
+main {
+    margin-left: 30px;
+    height: 600px;
+    width: 500px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+input {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #19a249;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+}
+.bigbut:hover {
+    background: #c2c2c2;
+}
+.sub:hover {
+    background: #19a249;
+    color: white;
+}
+.regform {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.meet {
+    font-family: 'Montserrat', sans-serif;
+    color: #19a249;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 40px;
+}
+.marg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.checkbox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.check {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.maincenter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mainlef {
+    height: 600px;
+    width: 200px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.back {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.backtext {
+    font-family: 'Montserrat', sans-serif;
+    color: #19a249;
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 30px;
+}
+.headerlogoenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.lenter {
+    display: flex;
+    align-items: center;
+}
+.textlogo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: inherit;
+    color: #19a249;
+}
+.enter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.enterbut {
+    user-select: none;
+    align-items: center;
+    background: #c2c2c2;
+    border: 0;
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+}
+.textenter {
+    margin-left: 5px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: inherit;
+    color: white;
+}
+.gorizontline {
+    border: 1q solid #e8e9ec;
+    width: 100%;
+}
+
+
+
+
